@@ -1,5 +1,10 @@
 /* STYLE BITCH!!!!!! */
 
+body {
+  background-image: url(assets/kamurocho_street_night.jpg);
+  background-size: 100%;
+}
+
 p {
   font-family: Arial;
   font-size: 17px;
@@ -10,9 +15,14 @@ p {
 .rect {
   background: black;
   display: block;
-  margin: auto;
   border: 10px white;
   justify-content:center;
   align-items: center;
+  transform: translate(50%, 50%);
   padding: 35px;
+}
+
+#muscle:hover {
+  background: pink;
+  color: black;
 }
