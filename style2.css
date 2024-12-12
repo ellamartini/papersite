@@ -1,0 +1,25 @@
+.rect {
+    font-family: arial;
+    font-size: 17px;
+    line-height: 22px;
+    color: white;
+    width:700px;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    transform: translate(50%, 50%);
+    padding: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+body.page2 {
+    background-image: url(assets/cabaret_club.jpg);
+    background-size: 100%;
+  }
+
+  #sitDownButton{
+    position:absolute;
+    top:450px;
+    left:50%;
+  }

@@ -6,13 +6,34 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
         </head>
 
-<body>
+<body class="home">
 
-    <div class="rect" style=" height:330px;width:700px;">
+    <div class="rect">
         <p><i>Yakuza</i>, or <i>Like A Dragon</i> depending on where you are and who you ask, is a narrative-driven Japanese video game franchise about organized crime where huge, <span id="muscle" >muscly men</span> take their shirts off and punch each other until they enter “climax heat mode”. Despite what this summary might suggest, since <i>Yakuza</i> first released in 2005, the studio has openly targeted a young, straight male audience.</p>
             
         <p>Series founder Toshihiro Nagoshi shared in 2019 that women made up about 20% of their overall player base. Responding to a small uptick this demographic, Nagoshi said, “<i>Yakuza</i> is something that is made for male players, so we will be careful not to be too conscious of the female users and derail from what we want to make.” Although these numbers have likely shifted somewhat since the release of their global hits <i>Yakuza: Like A Dragon</i> in 2020 and <i>Like A Dragon: Infinite Wealth</i> in 2024, the studio’s emphasis on male-centered stories and perspectives puts these most recent titles in alignment with the franchise’s long-standing focus on male audiences.</p>
     </div>
+
+    <div id="hypertextRectTrigger">
+        <img class="glowImg" src="assets/kamurocho_sign_copy.png" style="height:230px">
+    </div>
+
+    <div id="hypertextRect">
+        <p>To create a hyperlink is to <i>hyperlink</i> (or simply to <i>link</i>). A user following hyperlinks is said to navigate or browse the hypertext.</p>
+    </div>
+
+    <div id="ichiKiryu">
+        <img src="assets/ichi_kiryu.jpg" style="height:300px">
+    </div>
+
+    <div id="moveForwardButton">
+        <button onclick="moveForward()">move forward</button> 
+    </div>
+
+    <div id="goInsideButton">
+        <button onclick="window.location.href='page2.html';">go inside</button>
+    </div>
+
 
 <!-- PLAYHTML -->
 
@@ -21,14 +42,11 @@
     src="https://unpkg.com/playhtml@latest/dist/init.es.js"
     ></script>
 
-
     <img
     src="https://media2.giphy.com/media/lL7A3Li0YtFHq/giphy.gif?cid=ecf05e47ah89o71gzz7ke7inrgb1ai1xcbrjnqdf7o890118&ep=v1_stickers_search&rid=giphy.gif"
     can-move
     id="openSign"
-  />
-
-    <main id="sketch-container"></main>
+    />
 
     <script src="home.js"></script>
 
